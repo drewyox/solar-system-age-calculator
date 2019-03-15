@@ -32,18 +32,11 @@ module.exports = function(config) {
       'spec/*spec.js': ['webpack']
     },
 
-    plugins: [
-      'karma-jquery',
-      'karma-webpack',
-      'karma-jasmine',
-      'karma-chrome-launcher',
-      'karma-jasmine-html-reporter'
-    ],
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'kjhtml'],
+    reporters: ['progress'],
 
 
     // web server port

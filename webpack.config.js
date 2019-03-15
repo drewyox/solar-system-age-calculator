@@ -79,7 +79,7 @@ module.exports = {
       }
     }),
 
-    new UglifyJsPlugin(),
+    new UglifyJsPlugin({sourceMap: true}),
 
     new CleanWebpackPlugin(['dist'])
   ]

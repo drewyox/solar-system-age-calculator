@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --mode development --open",
-    "test": "jasmine"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
     "file-loader": "^1.1.6",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
@@ -25,6 +27,7 @@
     "karma-jasmine": "^1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-jquery": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.13",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",

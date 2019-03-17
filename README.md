@@ -6,7 +6,7 @@
 
 ## Description
 
-A website created with HTML, CSS, and Javascript that uses ES6 syntax and a production pipeline with Gulp.  Separates front end and back end code, runs multiple test on specs using Jasmine and Karma, and uses styling made in Sass.
+This website was created using node js, jasmine and karma for testing, as well as jquery for the age logic. The user can input their birthdate, and will receive their age in years for earth, Mercury, Venus, Mars, and Jupiter. They will also be shown how much projected life is left from the average life expectancy on each of the respective planets.
 
 ### Specs
 
@@ -15,61 +15,43 @@ A website created with HTML, CSS, and Javascript that uses ES6 syntax and a prod
   * Output: You are 26.4805 years old
 # _Determines your age on Mercury._
   * Input: 9-23-1992
-  * Output: You are 6.098086288036529 years old on Mercury
+  * Output: You are 6.35532 years old on Mercury
 # _Determines your age on Venus._
   * Input: 9-23-1992
-  * Output: You are 15.7533895774277 years old on Venus
+  * Output: You are 16.41791 years old on Venus
 # _Determines your age on Mars.__
   * Input: 9-23-1992
-  * Output: You are 47.76834258961947 years old on Mars
+  * Output: You are 49.78334 years old on Mars
 # _Determines your age on Jupiter._
   * Input: 9-23-1992
-  * Output: You are 301.3470974004718 years old on Jupiter
+  * Output: You are 314.05873 years old on Jupiter
 # _Finds your life expectancy is on Mercury._
-  * Input: 9-23-1992
-  * Output: You have 12.86191371196347 years left on Mercury
+  * Input: 9-23-1992 78.69
+  * Output: You have 18.8856 years left on Mercury
 # _Finds your life expectancy is on Venus._
   * Input: 9-23-1992
-  * Output: You have 33.22661042255263 years left on Venus
-# _Finds your life expectancy is on Jupiter._
-  * Input: 9-23-1992
-  * Output: You have 100.75165741032089 years left on Mars
+  * Output: You have 32.36989 years left on Venus
 # _Finds your life expectancy is on Mars._
   * Input: 9-23-1992
-  * Output: You have 635.592902599152 years left on Jupiter
-# _If a person has exceeded the average life expectancy on a planet it will alert them._
-  * Input: 9-23-1922
-  * Output: You have surpassed the average life expectancy on Venus
+  * Output: You have 147.9372 years left on Mars
+# _Finds your life expectancy is on Jupiter._
+  * Input: 9-23-1992
+  * Output: You have 619.20467 years left on Jupiter
 
-## Setup/Installation Requirements
-
-1. Clone this repository.
-  * https://github.com/brandonkudo/Javascipt-wk1-Code-Review-Super-Galactic-Age-Calculator.git
-2. Type npm install in Terminal.
-3. Type bower install in Terminal.
-4. Type gulp serve.
 
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Technologies Used
-* HTML
-* CSS
-  * Sass
-* Javascript
-  * jQuery
-  * Node
-    * Gulp
-    * Bower
-    * Babel
-    * Jasmine
-    * Karma
+  _HTML_
+  _CSS_
+  _Sass_
+  _Javascript_
+  _jQuery_
+  _Node_
+  _Babel_
+  _Jasmine_
+  _Karma_
 
-## Support and contact details
-
-_Email brandonkudo@gmail.com with any questions, comments, or concerns._
-
-
-
-Copyright (c) 2017 **_{Brandon Kudo}_**
+Copyright (c) 2019 **_{Drew Yoxsimer}_**
